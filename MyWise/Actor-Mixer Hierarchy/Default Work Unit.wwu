@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CC6BA941-9331-49C3-B135-1FEA06D558B3}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{CC6BA941-9331-49C3-B135-1FEA06D558B3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="战争大气" ID="{B590191B-43A4-4F63-8FCE-F1AF98540126}" ShortID="550528328">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="RenderEffect0" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation_01" ID="{3EF3D572-D44F-45CA-AF51-2E30046B6F23}" WorkUnitID="{77AC2E67-C645-4C81-AB63-5C487BBD837A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{39393983-DF79-4494-AA81-0C687C85D0CC}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="iZotope Trash Box Modeler" CompanyID="259" PluginID="7" PluginType="3">
+							<ObjectRef Name="Dirty_Metal_01" ID="{756DA3C5-B5F5-4CF5-BBE9-30A91715F973}" WorkUnitID="{179CB675-B9DD-4227-A92F-79C21B4691CB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3689FD7-F568-4219-83AB-AFDB3986CD47}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="战争大气" ID="{7E32BE5F-F7A2-4EB7-88D0-46D42E411212}" ShortID="174867495">
+							<Language>SFX</Language>
+							<AudioFile>战争大气.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="战争大气" ID="{7E32BE5F-F7A2-4EB7-88D0-46D42E411212}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
